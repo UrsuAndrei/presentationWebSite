@@ -1,0 +1,88 @@
+.top-bar
+{
+    /*background-color: aqua;*/
+
+}
+.top-container
+{
+    /*background-color: red;*/
+    margin-right: 20%;
+    margin-left: 20%;
+    min-height: 60px;
+    border-bottom: 1px solid darkgrey;
+    position: relative;
+
+}
+.top-left
+{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-top: 22px;
+    float:left;
+    color: white;
+    margin-left: 20px;
+}
+#location-icon
+{
+    width: 10px;
+    margin-right: 5px;
+    float: left;
+    margin-top: -2px;
+}
+.top-left p
+{
+    display: inline-block;
+}
+#email-icon
+{
+    width: 20px;
+    margin-right: 5px;
+    float: left;
+    margin-top: -1px;
+    margin-left: -10px;
+}
+.top-right
+{
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+.login
+{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    width: 65px;
+    height: 25px;
+    border-radius: 17px;
+    border:1.5px solid white;
+    background-color: transparent;
+}
+
+.singup
+{
+    font-family: "Raleway", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 65px;
+    height: 25px;
+    border-radius: 17px;
+    background-color: #1D9CC9;
+    border:1.5px solid #1D9CC9;
+    color: white;
+}
+.header-image
+{
+    height: 1500px;
+    width: 100%;
+    background: url('../img/bg-img.jpg');
+    margin-top:-500px;
+}
